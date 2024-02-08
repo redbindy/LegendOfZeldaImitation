@@ -138,8 +138,10 @@ namespace manager
 	{
 		delete[] mTitleZC;
 		delete[] mMapZC;
+		delete mPlayer;
 
 		pDDBack->Release();
+		pClipper->Release();
 		pDDPrimary->Release();
 		pDD7->Release();
 		pDD->Release();
